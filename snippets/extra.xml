@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="extra"
+           revision="twelve"
+           fetch="https://github.com/YAAP-sweet />
+
+  <!-- Gitlab -->
+  <remote  name="gitlab"
+           revision="12"
+           fetch="https://gitlab.com/Project-Awaken/" />
+
+    <!-- Framework -->
+    <project path="frameworks/base" name="frameworks_base" remote="extra" />
+
+    <!-- Packages -->
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="extra" />
+    <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="extra" />
+    <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="extra" />
+
+    <!-- vendor -->
+    <project path="vendor/yaap" name="vendor_yaap" remote="extra" />
+    <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
+</manifest>
