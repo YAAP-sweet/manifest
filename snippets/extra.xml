@@ -4,7 +4,7 @@
   <!-- Github -->
   <remote  name="extra"
            revision="twelve"
-           fetch="https://github.com/YAAP-sweet />
+           fetch="https://github.com/YAAP-sweet" />
 
   <!-- Gitlab -->
   <remote  name="gitlab"
